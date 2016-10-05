@@ -2,7 +2,9 @@ package Assignment04;
 import java.util.UUID;
 
 public class BankAccount implements BankOperations{
+	
 	private String accountNumber = "";
+	
 	private double balance = 0;
 	private String accountType = "";
 	
